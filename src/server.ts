@@ -8,4 +8,4 @@ app.get("/", () => {
 
 app.listen({
     port: 5500,
-});
+}).then(() => console.log("Server is running"));
