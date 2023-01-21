@@ -10,4 +10,5 @@ app.register(AppRoutes);
 
 app.listen({
   port: 5500,
+  host: "0.0.0.0"
 }).then(() => console.log("Server is running"));
